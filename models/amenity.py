@@ -1,16 +1,13 @@
-"""
-Clase Amenity:
-    - hereda de BaseModel.
-Public class attributes:
-    -name: string - empty string
-"""
+#!/usr/bin/python3
+"""Defines the Amenity class."""
 from models.base_model import BaseModel
-import models
-from uuid import uuid4
-from datetime import datetime
+
 
 class Amenity(BaseModel):
-    """Clase Amenity
-    - Public class attribute
+    """Represent an amenity.
+
+    Attributes:
+        name (str): The name of the amenity.
     """
+
     name = ""
